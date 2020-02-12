@@ -1,0 +1,120 @@
+*{
+  font-family: monospace;
+}
+/* sezione principale */
+#div-principale{
+  width: 400px;
+  margin: auto;
+}
+/* body style */
+body{
+  background-image: url("img/sfondo.jpg");
+  background-size: cover;
+}
+/* header style */
+#section-header{
+  height: auto;
+  margin: auto;
+  width: 400px;
+}
+header{
+  margin-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+img{
+  display: inline;
+  width: auto;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  vertical-align: middle;
+  border-radius: 5px;
+
+}
+h1{
+  font-weight: bolder;
+  font-size: 30px;
+  display: inline;
+  margin:auto;
+  margin-left: 10px;
+  color: white;
+  vertical-align: middle;
+}
+h1:hover{
+  color: grey;
+}
+/* section style */
+#search{
+  margin: auto;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+
+}
+.search{
+color: grey;
+}
+#messaggi-non-letti{
+  margin-bottom: 10px;
+  height: auto;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  border-bottom: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.messaggi{
+  border-radius: 100%;
+  background-color: orange;
+  padding: 10px;
+  font-size: 30px;
+}
+/* main style */
+#section-messages{
+  margin-bottom: 10px;
+  width: 400px;
+}
+.oggetto-messaggi{
+  margin-left: 10px;
+  display: inline;
+}
+.oggetto-messaggi:hover{
+  color: grey;
+}
+
+.checkbox{
+  background-color: #b3b0ae;
+  border: 1px solid black;
+}
+.background-color-checkbox{
+  background-color: white;
+  border: 1px solid black;
+}
+span{
+  color: #868484;
+}
+/* footer style */
+footer{
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  width: auto;
+  text-align: center;
+  border-top: 2px solid white;
+}
+.footer{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  display: inline;
+  margin-top: 10px;
+}
+i{
+  font-size: 16px;
+}
+.footer:hover{
+  color: grey;
+}

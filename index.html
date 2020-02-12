@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gmail</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- div di tutti i contentori -->
+    <div id="div-principale">
+      <!-- testata principale -->
+      <section id="section-header">
+        <header>
+          <img src="img/gmail.png" alt="logo gmail">
+          <h1>Gmail</h1>
+        </header>
+      </section>
+      <main>
+      <!-- sezione search e messaggi non letti-->
+        <section>
+          <div id="search">
+            <input type="text" name="search box" value="Search..." class="search">
+            <button type="button" name="button">VAI</button>
+          </div>
+
+          <div id="messaggi-non-letti">
+            <p>You have <strong class="messaggi">30</strong> unread</p>
+          </div>
+        </section>
+        <!-- sezione messaggi -->
+        <section id="section-messages">
+        <!-- checkbox -->
+            <div class="checkbox">
+            <input type="checkbox" name="messaggi" value=""><p class="oggetto-messaggi">&#9733; <strong>Oggetto della email</strong><span> - testo della email...</span></p>
+            </div>
+            <div class="background-color-checkbox">
+            <input type="checkbox" name="messaggi" value=""><p class="oggetto-messaggi">&#9733; <strong >Oggetto della email</strong><span> - testo della email...</span></p>
+            </div>
+            <div class="checkbox">
+            <input type="checkbox" name="messaggi" value=""><p class="oggetto-messaggi">&#9733; <strong >Oggetto della email</strong><span> - testo della email...</span></p>
+            </div>
+            <div class="checkbox">
+            <input type="checkbox" name="messaggi" value=""><p class="oggetto-messaggi">&#9733; <strong >Oggetto della email</strong><span> - testo della email...</span></p>
+            </div>
+        </section>
+        <footer>
+          <p class="footer">
+            <strong >GMail</strong> <i>powered by Paolo</i>
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
